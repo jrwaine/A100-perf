@@ -35,8 +35,8 @@ void createFolder(std::string foldername){
     cmd += foldername;
     system(cmd.c_str());
     #else
-    if(std::mkdir(foldername, 0777) == -1)
-        std::cout << "Error creating folder '" << foldername << "'.\n";
+    // if(std::mkdir(foldername, 0777) == -1)
+    //     std::cout << "Error creating folder '" << foldername << "'.\n";
     #endif
 }
 

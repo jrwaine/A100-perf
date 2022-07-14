@@ -1,0 +1,3 @@
+/bin/0*
+*.bin
+!/bin/*.txt

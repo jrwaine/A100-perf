@@ -49,7 +49,7 @@
 constexpr unsigned int SCALE = 1;
         // maximum number of time steps
                // saves macroscopics every MACR_SAVE steps
-#define DATA_REPORT (0)                // report every DATA_REPORT steps
+#define DATA_REPORT (9999)                // report every DATA_REPORT steps
 
  
 #define DATA_STOP false                 // stop condition by treated data

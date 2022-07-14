@@ -1,0 +1,58 @@
+---------------------------- SIMULATION INFORMATION ----------------------------
+      Simulation ID: 001
+       Velocity set: D3Q19
+          Precision: double
+                 NX: 256
+                 NY: 256
+                 NZ: 256
+           NZ_TOTAL: 256
+                Tau: 5.031126e-01
+               Umax: 4.074367e-02
+                 FX: 0.000000e+00
+                 FY: 0.000000e+00
+                 FZ: 0.000000e+00
+       Report steps: 0
+         Save steps: 0
+             Nsteps: 0
+              MLUPS: 0.0
+          Bandwidht: 0.0 (Gb/s)
+       Time elapsed: 0.000 (s)
+            threads: (64 , 1, 1)
+--------------------------------------------------------------------------------
+
+------------------------------- CUDA INFORMATION -------------------------------
+	      device number: 0
+	               name: NVIDIA A100-SXM4-40GB
+	    multiprocessors: 108
+	 compute capability: 8.0
+	        ECC enabled: 1
+--------------------------------------------------------------------------------
+---------------------------- SIMULATION INFORMATION ----------------------------
+      Simulation ID: 001
+       Velocity set: D3Q19
+          Precision: double
+                 NX: 256
+                 NY: 256
+                 NZ: 256
+           NZ_TOTAL: 256
+                Tau: 5.031126e-01
+               Umax: 4.074367e-02
+                 FX: 0.000000e+00
+                 FY: 0.000000e+00
+                 FZ: 0.000000e+00
+       Report steps: 0
+         Save steps: 0
+             Nsteps: 20000
+              MLUPS: 4359.1
+          Bandwidht: 1239.0 (Gb/s)
+       Time elapsed: 76.976 (s)
+            threads: (64 , 1, 1)
+--------------------------------------------------------------------------------
+
+------------------------------- CUDA INFORMATION -------------------------------
+	      device number: 0
+	               name: NVIDIA A100-SXM4-40GB
+	    multiprocessors: 108
+	 compute capability: 8.0
+	        ECC enabled: 1
+--------------------------------------------------------------------------------

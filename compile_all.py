@@ -4,7 +4,7 @@ import sys
 
 BASE_PATH = os.getcwd()
 LBM_SRC = "LBM/src/CUDA/"
-LBM_VARS = "LBM/src/"
+LBM_VARS = "LBM/"
 MLBM_SRC = "MLBM/src/"
 MLBM_VARS = "MLBM/"
 
@@ -21,7 +21,7 @@ def cp_var(folder_from: str, folder_to: str, number: int) -> int:
     shutil.copy(file_from, file_to)
 
 def main():
-    for folder_var, folder_src in [(LBM_VARS, LBM_SRC), (MLBM_VARS, MLBM_SRC)]:
+    for folder_var, folder_src in [(LBM_VARS, LBM_SRC)]:
         for file in os.listdir(folder_var):
             if(not file.endswith(".h")):
                 continue

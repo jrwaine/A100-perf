@@ -15,7 +15,7 @@
 
 
 /* ------------------------ GENERAL SIMULATION DEFINES ---------------------- */
-#define DOUBLE_PRECISION    // SINGLE_PRECISION (float) or DOUBLE_PRECISION (double)
+#define SINGLE_PRECISION    // SINGLE_PRECISION (float) or DOUBLE_PRECISION (double)
 #define D3Q19               // velocity set to use (D3Q19 OR D3Q27)
 // Comment to disable IBM. Uncomment to enable IBM
 //#define IBM
@@ -49,7 +49,7 @@
 constexpr unsigned int SCALE = 1;
         // maximum number of time steps
                // saves macroscopics every MACR_SAVE steps
-#define DATA_REPORT (0)                // report every DATA_REPORT steps
+#define DATA_REPORT (9999)                // report every DATA_REPORT steps
 
  
 #define DATA_STOP false                 // stop condition by treated data
@@ -81,7 +81,7 @@ constexpr unsigned int GPUS_TO_USE[N_GPUS] = {0};    // Which GPUs to use
 
 #define MACR_SAVE (0)
 
-constexpr int N = 128 * SCALE;
+constexpr int N = 256 * SCALE;
 constexpr int NX = N;        // size x of the grid 
                                     // (32 multiple for better performance)
 constexpr int NY = N;        // size y of the grid
@@ -94,7 +94,7 @@ constexpr dfloat L = (dfloat)N / (2.0 *3.141592);
 constexpr dfloat VISC = L*U_MAX / RE;
 constexpr dfloat Ct = (1.0/L)/(1.0/U_MAX);
 
-constexpr int N_STEPS = 10;
+constexpr int N_STEPS = 20000;
 
 
 constexpr dfloat TAU = 0.5 + 3.0*VISC;     // relaxation time

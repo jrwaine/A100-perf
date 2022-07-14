@@ -38,7 +38,7 @@ constexpr int SCALE = 1;
 #define MACR_SAVE (0)
 
 
-constexpr int N = 128 * SCALE;
+constexpr int N = 256 * SCALE;
 constexpr int NX = N;        // size x of the grid 
                                     // (32 multiple for better performance)
 constexpr int NY = N;        // size y of the grid
@@ -53,7 +53,7 @@ constexpr dfloat Ct = (1.0/L)/(1.0/U_MAX);
 constexpr dfloat Cx = 1.0/L;
 constexpr dfloat Cp = 1.0/(Cx * Ct * Ct);
 
-constexpr int N_STEPS = 20000;
+constexpr int N_STEPS = 10;
 
 
 constexpr dfloat TAU = 0.5 + 3.0*VISC;     // relaxation time

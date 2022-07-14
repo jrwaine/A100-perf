@@ -1,6 +1,5 @@
 CC=80
 
-
 if [[ "$1" = "D3Q19" || "$1" = "D3Q27" ]]
 then
     nvcc -gencode arch=compute_${CC},code=sm_${CC} -rdc=true --ptxas-options=-v -O3 --restrict \
