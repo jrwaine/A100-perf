@@ -15,7 +15,7 @@
 
 
 /* ------------------------ GENERAL SIMULATION DEFINES ---------------------- */
-#define SINGLE_PRECISION    // SINGLE_PRECISION (float) or DOUBLE_PRECISION (double)
+#define DOUBLE_PRECISION    // SINGLE_PRECISION (float) or DOUBLE_PRECISION (double)
 #define D3Q19               // velocity set to use (D3Q19 OR D3Q27)
 // Comment to disable IBM. Uncomment to enable IBM
 //#define IBM
@@ -81,7 +81,7 @@ constexpr unsigned int GPUS_TO_USE[N_GPUS] = {0};    // Which GPUs to use
 
 #define MACR_SAVE (0)
 
-constexpr int N = 128 * SCALE;
+constexpr int N = 256 * SCALE;
 constexpr int NX = N;        // size x of the grid 
                                     // (32 multiple for better performance)
 constexpr int NY = N;        // size y of the grid

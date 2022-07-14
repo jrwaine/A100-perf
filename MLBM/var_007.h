@@ -38,7 +38,7 @@ constexpr int SCALE = 1;
 #define MACR_SAVE (0)
 
 
-constexpr int N = 128 * SCALE;
+constexpr int N = 256 * SCALE;
 constexpr int NX = N;        // size x of the grid 
                                     // (32 multiple for better performance)
 constexpr int NY = N;        // size y of the grid

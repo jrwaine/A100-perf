@@ -127,8 +127,8 @@ constexpr dfloat ONESIXTH = 1.0/6.0;
 constexpr dfloat ONETHIRD = 1.0/3.0;
 
 /* ------------------------------ MEMORY SIZE ------------------------------ */
-const size_t BLOCK_NX = 16;
-const size_t BLOCK_NY = 4;
+const size_t BLOCK_NX = 8;
+const size_t BLOCK_NY = 8;
 const size_t BLOCK_NZ = 4;
 const size_t BLOCK_LBM_SIZE = BLOCK_NX * BLOCK_NY * BLOCK_NZ;
 
